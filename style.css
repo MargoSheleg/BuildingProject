@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  width: 1920px;
+  height: 740px;
+  background-image: url(assets/images/Bridge.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.h1 {
+  color: white;
+  text-align: center;
+}
+
+#bigP {
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.smallP {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 1110px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.twSx {
+  color: #f7654a;
+  font-weight: 500;
+  font-size: 72px;
+}
+
+.let {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+
+.naRynkie {
+  color: #999999;
+  font-weight: 500;
+  font-size: 18px;
+}
