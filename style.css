@@ -2,7 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
+
+/* .nav,
+main,
+.cnttInsideOrgStr,
+footer {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+} */
 
 .nav {
   display: flex;
@@ -12,11 +22,11 @@
 }
 
 header {
-  width: 1920px;
-  height: 740px;
+  /* width: 1920px;
+  height: 740px; */
   background-image: url(assets/images/Bridge.png);
-  background-size: ;
-  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-repeat: repeat-x;
   background-position: center top;
   background-attachment: scroll;
   display: flex;
@@ -32,6 +42,7 @@ header {
 #bigP {
   font-weight: 500;
   font-size: 64px;
+  max-width: 45vw;
 }
 
 .smallP {
@@ -44,8 +55,8 @@ header {
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
-  width: 1110px;
-  height: 300px;
+  width: 50vw;
+  height: 35%;
   margin-top: 20px;
 }
 
@@ -69,9 +80,9 @@ header {
 }
 
 main {
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
+  /* padding: 60px; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 h3 {
@@ -81,12 +92,61 @@ h3 {
 }
 
 section {
-  width: 350px;
-  height: 578px;
+  /* width: 350px;
+  height: 578px; */
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+}
+
+.arena {
+  font-weight: 500;
+  font-size: 24px;
+  color: #404149;
+}
+
+.arText {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
 }
 
 .sections {
   display: flex;
   justify-content: center;
+}
+
+.stripe {
+  background-image: url(assets/images/Stripe.png);
+  background-size: 100vw auto;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  width: 100vw;
+}
+
+.stripeP1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.stripeP2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.stripe button {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.grayStripe {
+  background-image: url(assets/images/GrayBack.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 100vw;
 }
