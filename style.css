@@ -5,15 +5,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-/* .nav,
-main,
-.cnttInsideOrgStr,
-footer {
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-} */
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -22,12 +13,11 @@ footer {
 }
 
 header {
-  /* width: 1920px;
-  height: 740px; */
   background-image: url(assets/images/Bridge.png);
-  background-size: 100vw auto;
-  background-repeat: repeat-x;
-  background-position: center top;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   display: flex;
   align-items: flex-end;
@@ -37,6 +27,7 @@ header {
 .h1 {
   color: white;
   text-align: center;
+  margin-top: 25%;
 }
 
 #bigP {
@@ -56,8 +47,9 @@ header {
   align-items: center;
   background-color: white;
   width: 50vw;
-  height: 35%;
-  margin-top: 20px;
+  height: 40%;
+  margin-top: 5%;
+  padding: 5%;
 }
 
 .twSx {
@@ -79,24 +71,23 @@ header {
   font-size: 18px;
 }
 
-main {
-  /* padding: 60px; */
-  /* display: flex;
-  flex-direction: column; */
-}
-
 h3 {
   font-size: 36px;
   font-weight: 500;
   text-align: center;
+  padding-top: 7%;
+  padding-bottom: 1%;
 }
 
 section {
-  /* width: 350px;
-  height: 578px; */
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.orangeDash {
+  height: 6px;
+  width: 55px;
 }
 
 .arena {
@@ -115,6 +106,9 @@ section {
 .sections {
   display: flex;
   justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 7%;
 }
 
 .stripe {
@@ -123,6 +117,21 @@ section {
   background-repeat: repeat-x;
   background-attachment: scroll;
   width: 100vw;
+}
+
+.cnttInsideOrgStr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paragraphs {
+  margin: 1%;
+}
+
+button {
+  height: 49px;
+  width: 175px;
+  align-self: center;
 }
 
 .stripeP1 {
@@ -141,6 +150,68 @@ section {
   font-weight: 500;
   font-size: 14px;
   color: #000000;
+}
+
+.wwDoing,
+nav > p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+.threeC,
+.firstSixC,
+.secondSixC {
+  display: flex;
+  justify-content: center;
+}
+
+.grayCube {
+  background-image: url(assets/images/GrayBack.png);
+  width: 20vw;
+  height: 30vh;
+  margin: 20px;
+}
+
+.threeC p,
+.sixC p {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.insideGrayCube {
+  padding: 20%;
+  text-align: center;
+}
+
+.fourContacts {
+  display: flex;
+  justify-content: center;
+}
+
+.fourContacts > div {
+  margin: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.contacts {
+  color: #999999;
+  padding: 15px;
+}
+
+.contTwo {
+  color: #000000;
+  padding: 15px;
+}
+
+.contTree {
+  color: #f7654a;
+  padding: 15px;
 }
 
 .grayStripe {
