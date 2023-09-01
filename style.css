@@ -214,10 +214,66 @@ nav > p {
   padding: 15px;
 }
 
+/* изображение из фигмы не совпадает по размерам и поэтому создается горизонтальный скролл!!! не знала, как это решить... */
 .grayStripe {
   background-image: url(assets/images/GrayBack.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
   width: 100vw;
+}
+
+@media (max-width: 511px) {
+  .h1 {
+    margin-top: 15%;
+    margin: 9%;
+    text-align: center;
+  }
+
+  #bigP {
+    font-size: 40px;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .smallP {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .twSx {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .let {
+    font-size: 27px;
+  }
+
+  .naRynkie {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .numbers {
+    width: 84vw;
+    height: 40%;
+    margin-top: 5%;
+    padding: 12%;
+  }
+
+  header {
+    background-position: center;
+  }
+  .sections {
+    overflow: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 15%;
+  }
+
+  h3 {
+    margin: 9%;
+  }
 }
