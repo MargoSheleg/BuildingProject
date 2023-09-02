@@ -42,7 +42,7 @@ header {
   background-color: white;
   width: 50vw;
   height: 40%;
-  margin-top: 5%;
+  margin-top: 3%;
   padding: 5%;
 }
 
@@ -164,18 +164,15 @@ nav > p {
   background-image: url(assets/images/GrayBack.png);
   width: fit-content;
   height: fit-content;
-  margin: 5%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
 }
 
 .threeC p,
 .sixC p {
   font-weight: 500;
   font-size: 21px;
-}
-
-.insideGrayCube {
-  padding: 20%;
-  text-align: center;
 }
 
 .fourContacts {
@@ -205,8 +202,13 @@ nav > p {
   padding: 10px;
 }
 
-.grayStripe {
-  width: 100vw;
+nav {
+  padding-bottom: 4%;
+  background-image: url(assets/images/GrayStripe.png);
+  background-size: contain;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 @media (max-width: 511px) {
