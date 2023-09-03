@@ -5,6 +5,8 @@
   font-family: "Oswald", sans-serif;
 }
 
+/* и в обычном, и в мобильном представлении появляется горизонтальный скролл. не знаю, как это решить!!!*/
+
 header {
   background-image: url(assets/images/Bridge.png);
   background-size: cover;
@@ -41,7 +43,6 @@ header {
   align-items: center;
   background-color: white;
   width: 50vw;
-  height: 40%;
   margin-top: 3%;
   padding: 5%;
 }
@@ -76,7 +77,6 @@ h3 {
 section {
   display: flex;
   flex-direction: column;
-  padding: 3%;
 }
 
 .orangeDash {
@@ -100,6 +100,7 @@ section {
 .sections {
   display: flex;
   justify-content: center;
+  gap: 4%;
   margin-left: 25%;
   margin-right: 25%;
   padding-bottom: 7%;
@@ -158,6 +159,7 @@ nav > p {
 .secondSixC {
   display: flex;
   justify-content: center;
+  gap: 2%;
 }
 
 .grayCube {
@@ -258,9 +260,51 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 15%;
+    gap: 4%;
   }
 
   h3 {
     margin: 9%;
+  }
+
+  .stripe {
+    height: fit-content;
+  }
+
+  .paragraphs {
+    margin: 9%;
+  }
+
+  .stripeP1 {
+    font-size: 30px;
+  }
+
+  .stripeP2 {
+    font-size: 18px;
+  }
+
+  button {
+    margin: 5%;
+  }
+
+  .threeC,
+  .firstSixC,
+  .secondSixC {
+    overflow: scroll;
+    margin: 4%;
+    padding: 4%;
+  }
+
+  .wwDoing {
+    padding: 4%;
+  }
+
+  .fourContacts {
+    flex-wrap: wrap;
+  }
+
+  .fourContacts > div {
+    margin: 2%;
+    margin-bottom: 8%;
   }
 }
